@@ -1,0 +1,31 @@
+This file tracks major changes from pipeline version 5.3 to version 6.0.
+
+1. Data preparation
+
+- Only data saved on Datacentral (GALAH/obs/survey) is reduced. Previously we made some manual changes when there were typos in the comments file, for example. Now we use the exact copy of data on Datacentral.
+- All data was inspected manually, so there should be fewer misidentified twilight flats in the reduced spectra now. Some nights are not reduced due to many problems found when inspecting it.
+- Bookkeeping for benchmark and standard stars was improved. Now the correct fibre is reduced and the rest are discarded.
+
+2. Reduction steps
+
+- If traceing fails for some fibres, the trace shape is inferred from the neighbouring traces. This fixes fibre cross-talk calculations close to broken or low throughput fibres.
+- Scattered light is calculated more carefully. Spectral traces are masked and a scattered light model is calculated. Iraf's apscatter is not used anymore.
+- Cross talk is calculated from aperture profile modelling.
+- Arc linelist has been revised based on measured radial velocities and trends observed throughout HERMES' wavelength range. 
+- Sky subtraction was simplified in order to have better control. Different methods of sky subtraction are now available in the code.
+- Molecfit was abandoned in telluric correction. New code offers more control. O2 and H2O lines are fitted separtely and in all four CCDs. Measured resolution profile is used to convolve HITRAN teluric spectra.
+- Resolution profile 
+- Normalisation is now a nonparametric fit. This is not necessary an improvement, but a consequence of a new analysis code. Combined normalised spectra are cleaned (rejection algorithm removes strong cosmic rays, etc.)
+
+3. Analisis
+
+- Resolution profile is calculated for every spectrum. Resolution profile is given by a generalised gaussian function.
+- GUESS was abandoned. New radial velocity pipeline gives more accurate velocities for a broader range of stellar parameters. Combination of radial velocity in four channels is done properly. 
+- Stellar parameters are calculated by a neural network.
+
+4. Products
+
+- Format of the reduced spectra and databases has changed. This was necessary to accomodate new products.
+- All spectra have a fixed number of extensions, even if some don't have useful data in them.
+- All spectra have the same information in the headers.
+- Databases are available in fits, csv and hdf5 formats. 

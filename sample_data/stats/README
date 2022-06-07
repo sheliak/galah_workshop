@@ -1,0 +1,14 @@
+Description of plots:
+
+number.png                Number of observed spectra, separated by flagged/unflagged (black and blue lines, respectively) and by spectra/unique stars (solid and dashed liens, respectively). Hours spent on sky is plotted in orange and efficiency (spectra per hour) with magenta dots.
+snr.png                   SNR statistics for all four CCDs separated by flagged/unflagged spectra. Mean SNR is marked by a solid vertical line. SNR is per pixel.
+snr_per_element.png       Same as previous plot, but for SNR per resolution element. Real resolution element is used in the calculation. Spectra for which the resolution cannot be estimated are collected in the first bin (SNR=0).
+resolution_fibres.png     Mean resolving power of each fibre. Colours map the time. Note how the resolving power changes after recommissioning in 2018. Function given at the bottom of the plot is used for the line spread function (LSF). Such a generalised Gaussian has more signal within one FWHM, so the estimated resolving power is lower than expected when a standard Gaussian is assumed for the LSF. Hence the difference between the measured resolving power of 24000 and 28000, which is usualy reported. Note that the mean resolving power is reported, not the best resolving power in each fibre.
+cob_stat_*.png            Statistics of reduced spectra in each continous observing block (COB). Each bar is 400 units long (representing 400 fibres). Red part of the abr shows flagged spectra, green shows unflagged spectra, and gray shows unused fibres. These can be guiding fibres (8 fibres), sky fibres (usualy 25 fibres), or any fibres that don't have a reduced spectrum, either because they were not used or something went critically wrong in the reduction process.
+throughputs_p*_*.png      Fibre throughput variations in time. For each pivot (fibre number in the 2dF positioner) throughputs are plotted for four CCDs (blue, green, red, and black symbols for IR CCD). Lines show running average. Relative throughputs are plotted, which means that at any given time there is a fibre with a throughput of 1. This can be a different fibre for different CCDs.
+kiel1.png                 Kiel diagram for all stars with SNR_red>20 and reduction_flags=0. Iron abundance is colour coded.
+kiel2.png                 Kiel diagram for all stars with SNR_red>20 and reduction_flags=0. Colours map the density.
+alpha_fe.png              Tinsley-Wallerstein diagram for stars with SNR_red>20 and reduction_flags=0. Colours map the density.
+allsky_equatorial.png     All-sky map of observed fields.
+allsky_galactic.png       All-sky map of observed fields in galactic coordinates.
+allsky_velocity.png       All-sky map of barycentric radial velocity of each star.

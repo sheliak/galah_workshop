@@ -1,0 +1,11 @@
+This folder contains GALAH reductions made with the Iraf pipeline version 6.0.
+
+More documentation like database description, and folder and file structures can be found in ``documentation'' folder.
+Some statistics of the reduced data can be found in ``stats'' fodler.
+
+Contact Janez Kos (janez.kos@gmail.com) if you have questions.
+
+KNOWN BUGS:
+- In a couple dozen cases ra_icrs and dec_icrs are wrong when gaia_id is missing
+- fibre number is wrong in many early reductions
+- fibre_y is wrong in many early reductions

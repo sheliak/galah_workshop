@@ -1,0 +1,167 @@
+<?xml version='1.0'?>
+<VOTABLE version="1.3"
+ xmlns="http://www.ivoa.net/xml/VOTable/v1.3">
+<!--
+ !  VOTable written by STIL version 3.3-2-debian (uk.ac.starlink.votable.VOTableWriter)
+ !  at 2022-06-07T12:41:45
+ !-->
+<RESOURCE>
+<TABLE name="/home/janez/tmp/forgit/210115.fits#1" nrows="6">
+<FIELD datatype="long" name="sobject_id"/>
+<FIELD datatype="float" name="ra"/>
+<FIELD datatype="float" name="dec"/>
+<FIELD datatype="float" name="ra_icrs"/>
+<FIELD datatype="float" name="dec_icrs"/>
+<FIELD datatype="double" name="mjd"/>
+<FIELD arraysize="23" datatype="char" name="utdate"/>
+<FIELD datatype="double" name="epoch"/>
+<FIELD datatype="double" name="mjd_s"/>
+<FIELD arraysize="23" datatype="char" name="utdate_s"/>
+<FIELD datatype="double" name="epoch_s"/>
+<FIELD datatype="double" name="mjd_e"/>
+<FIELD arraysize="23" datatype="char" name="utdate_e"/>
+<FIELD datatype="double" name="epoch_e"/>
+<FIELD datatype="short" name="aperture"/>
+<FIELD datatype="short" name="pivot"/>
+<FIELD datatype="short" name="fibre"/>
+<FIELD datatype="float" name="fibre_x"/>
+<FIELD datatype="float" name="fibre_y"/>
+<FIELD datatype="float" name="fibre_theta"/>
+<FIELD datatype="short" name="plate"/>
+<FIELD arraysize="4" datatype="float" name="aperture_position"/>
+<FIELD datatype="float" name="mean_ra"/>
+<FIELD datatype="float" name="mean_dec"/>
+<FIELD datatype="float" name="mean_zd"/>
+<FIELD datatype="float" name="mean_airmass"/>
+<FIELD datatype="float" name="mean_ha"/>
+<FIELD arraysize="48" datatype="char" name="cfg_file"/>
+<FIELD arraysize="56" datatype="char" name="cfg_field_name"/>
+<FIELD arraysize="48" datatype="char" name="obj_name"/>
+<FIELD arraysize="16" datatype="char" name="galah_id"/>
+<FIELD arraysize="16" datatype="char" name="2mass"/>
+<FIELD arraysize="20" datatype="char" name="gaia_id"/>
+<FIELD arraysize="4" datatype="float" name="snr"/>
+<FIELD arraysize="4" datatype="float" name="snr_AA"/>
+<FIELD arraysize="4" datatype="float" name="fibre_throughput"/>
+<FIELD arraysize="4" datatype="float" name="telluric_h2o"/>
+<FIELD arraysize="4" datatype="float" name="telluric_o2"/>
+<FIELD arraysize="4" datatype="float" name="res"/>
+<FIELD arraysize="4" datatype="float" name="b_par"/>
+<FIELD datatype="float" name="v_bary_eff"/>
+<FIELD datatype="float" name="exposed"/>
+<FIELD datatype="float" name="mag"/>
+<FIELD datatype="float" name="e_b-v"/>
+<FIELD arraysize="4" datatype="float" name="wav_rms"/>
+<FIELD arraysize="28" datatype="char" name="wav_n_lines"/>
+<FIELD datatype="short" name="n_combined"/>
+<FIELD arraysize="4" datatype="float" name="rv"/>
+<FIELD arraysize="4" datatype="float" name="e_rv"/>
+<FIELD datatype="float" name="rv_com"/>
+<FIELD datatype="float" name="e_rv_com"/>
+<FIELD datatype="float" name="teff_r"/>
+<FIELD datatype="float" name="logg_r"/>
+<FIELD datatype="float" name="fe_h_r"/>
+<FIELD datatype="float" name="alpha_fe_r"/>
+<FIELD datatype="float" name="vmic_r"/>
+<FIELD datatype="float" name="vbroad_r"/>
+<FIELD arraysize="56" datatype="char" name="obs_comment"/>
+<FIELD arraysize="5" datatype="char" name="pipeline_version"/>
+<FIELD datatype="int" name="reduction_flags"/>
+<DATA>
+<BINARY>
+<STREAM encoding='base64'>
+AAC/GTXxaIlCr37/QP+rH0Kvfv5A/6sNQOzrr1m1HQoyMDIxLTAxLTE1IDExOjMw
+OjQ2LjEzNECflCifXFPoQOzrrlJi6QUyMDIxLTAxLTE1IDEwOjQ0OjI4LjkxOUCf
+lCiIRmRkQOzrsGEHeP0yMDIxLTAxLTE1IDEyOjE3OjAzLjM1NUCflCi2ckbsAAoA
+AQAKRQPwAEV/x3k9qFEiAABC2AyzQsJoy0K+MI5CoxwTQq2w5kD/8R1CJEN7P6nF
+gsEjzQFnZjNfOTQ2Nl8zODE5NzIxODA4XzEyMDE0MDBfMTBfMTQwMF8xNDAwX3Aw
+LnNkcwBnYWxhaGZjb18zLnR4dDs5NDY2OztvbXZlcnNpb249MS4wLjA7MzgxOTcy
+MTgwODsxMDsgMTQuMGdhaWFkcjJfMzMzNTA3NDQ3NjUxNDgzNjYwOAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAE5vbmUAAAAAAAAAAAAAAAAwNTUwNTk1MiswNzU5MjI2MzMz
+NTA3NDQ3NjUxNDgzNjYwOABBsUXWQiza4UJqVE5CivyMQs6/WEM4xlBDaRiZQ4AY
+ST87upM/QBFfPy3tET9H/X8/w3iTP6HehD/N/iU/8VJ9f8AAAD347Ut/wAAAPeRd
+HD5bCQI+iISPPqQMpD60bthAM/fPQA++d0AMKPZACKPXwVWwSEWowABBUj1xPxxq
+fzxGPxQ8UbcXPM5wOzzqSow2NC82NSAgNTAvNTIgIDM2LzM2ICAyOS8zMQAAAAPB
+lVcjwZTPH8GXt4rBlCBTPhCDIT4LHyA+KgN7PlPN98GVeHs98ClaRZKDaUAL9F2+
+izKePboKNz+nnPpA1zFkb2JqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2LjAAAAAABAAAAL8ZNfFoikKutBNBADtk
+Qq60FkEAO2JA7OuvWbUdCjIwMjEtMDEtMTUgMTE6MzA6NDYuMTM0QJ+UKJ9cU+hA
+7OuuUmLpBTIwMjEtMDEtMTUgMTA6NDQ6MjguOTE5QJ+UKIhGZGRA7OuwYQd4/TIw
+MjEtMDEtMTUgMTI6MTc6MDMuMzU1QJ+UKLZyRuwACQACAAlFtxAARX/HeT2nvMMA
+AELHrYBCsfRDQq3VLkKSlAFCrbDmQP/xHUIkQ3s/qcWCwSPNAWdmM185NDY2XzM4
+MTk3MjE4MDhfMTIwMTQwMF8xMF8xNDAwXzE0MDBfcDAuc2RzAGdhbGFoZmNvXzMu
+dHh0Ozk0NjY7O29tdmVyc2lvbj0xLjAuMDszODE5NzIxODA4OzEwOyAxNC4wZ2Fp
+YWRyMl8zMzM1MDMxMTQ0NTg4NTcyNDE2AAAAAAAAAAAAAAAAAAAAAAAAAAAATm9u
+ZQAAAAAAAAAAAAAAADA1NDkyNDQxKzA4MDA1MjIzMzM1MDMxMTQ0NTg4NTcyNDE2
+AEHD9zdCPxIPQownsUKZlqlC5InMQ0xBkEOLa4FDjY6GP0cYaD9I2rY/Nh13P1Sd
+6D/DeJM/od6EP83+JT/xUn1/wAAAPfjtS3/AAAA95F0cPlNn9j6E8EE+nrPtPrKe
+EkAyn75ACsCDQAa4UkAEi0TBWLQ8RajAAEFTCj0/F19wPBrULDxGPxQ8gW8APOSO
+ijYwLzY1ICA0OS81NCAgMzkvNDAgIDI4LzI5AAAAA0H+wtZCAI4cQf9SMkH9lrw+
+EYckPgv0ET4QhAo+R37oQf81rj3lVcBFkzeOQBnRvr5NmIo9H4iWP6HDI0DZiAJv
+YmoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAADYuMAAAAAAAAAAAvxk18WiLQq4VYEEBZzJCrhVhQQFnNEDs669ZtR0K
+MjAyMS0wMS0xNSAxMTozMDo0Ni4xMzRAn5Qon1xT6EDs665SYukFMjAyMS0wMS0x
+NSAxMDo0NDoyOC45MTlAn5QoiEZkZEDs67BhB3j9MjAyMS0wMS0xNSAxMjoxNzow
+My4zNTVAn5QotnJG7AAIAAMACEam/gBFf8d5Pg9fTgAAQretNEKh7URCnjanQoKH
+pkKtsOZA//EdQiRDez+pxYLBI80BZ2YzXzk0NjZfMzgxOTcyMTgwOF8xMjAxNDAw
+XzEwXzE0MDBfMTQwMF9wMC5zZHMAZ2FsYWhmY29fMy50eHQ7OTQ2Njs7b212ZXJz
+aW9uPTEuMC4wOzM4MTk3MjE4MDg7MTA7IDE0LjBnYWlhZHIyXzMzMzUwNDIyNzcx
+NDM2ODc5MzYAAAAAAAAAAAAAAAAAAAAAAAAAAABOb25lAAAAAAAAAAAAAAAAMDU0
+ODEwMDIrMDgwNTE1ODMzMzUwNDIyNzcxNDM2ODc5MzYAQdzw8UIkQLpCIpfxQj00
+YUMA10VDL5XTQyG7UUMuZVg/HWmWPyv85j8jx2I/Pp1ZP8N4kz+h3oQ/zf4lP/FS
+fX/AAAA9+O1Lf8AAAD3kXRw+WGboPopM+j6jXOo+vkneQDGZmkAHvndABsi0QAFY
+EMFbGn1FqMAAQVHrhT6ztkY8EvboPH3ztjxBVMo9AqmTNTgvNjMgIDQ4LzUxICAz
+Ny8zOCAgMjcvMjkAAAADQeVJnkFwf7FB5ZRUQYM1vkA4Q7U/2XdQQMIakUBvCVxB
+unLCQIcqUkXN/A1Ae2+Hv1FTKD8prdU/3IVgQisSwW9iagAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANi4wAAAAAAAA
+AAC/GTXxaIxCrheCQQE3+0KuF4BBATf+QOzrr1m1HQoyMDIxLTAxLTE1IDExOjMw
+OjQ2LjEzNECflCifXFPoQOzrrlJi6QUyMDIxLTAxLTE1IDEwOjQ0OjI4LjkxOUCf
+lCiIRmRkQOzrsGEHeP0yMDIxLTAxLTE1IDEyOjE3OjAzLjM1NUCflCi2ckbsAAcA
+BAAHRpIyAEV/x3k+FrylAABCp3McQpGrPkKN585CZFlbQq2w5kD/8R1CJEN7P6nF
+gsEjzQFnZjNfOTQ2Nl8zODE5NzIxODA4XzEyMDE0MDBfMTBfMTQwMF8xNDAwX3Aw
+LnNkcwBnYWxhaGZjb18zLnR4dDs5NDY2OztvbXZlcnNpb249MS4wLjA7MzgxOTcy
+MTgwODsxMDsgMTQuMGdhaWFkcjJfMzMzNTA0MjI4MTQzOTcyNDAzMgAAAAAAAAAA
+AAAAAAAAAAAAAAAAAE5vbmUAAAAAAAAAAAAAAAAwNTQ4MTEwMSswODA0MzQyMzMz
+NTA0MjI4MTQzOTcyNDAzMgBBj8fVQcyu+EH7SZlB5GqhQqers0LayrBC+fMOQtKK
+Zj7rM60+6pngPuHq/z7/6s4/w3iTP6HehD/N/iU/8VJ9f8AAAD347Ut/wAAAPeRd
+HD5gM+8+kXybPquvHj7LdCBAMeuFQAAgxUAHGqBAAYk3wVsP0kWowABBWcKPPrO2
+RjwPCEY8TMzNPOIZZTzFbV01OC82MSAgNDcvNTIgIDM0LzM1ICAyOS8zMQAAAANA
+ieBcQIngXECJ4Fx/wAAAQMQAo0BQV0xBMZ2Rf8AAAMCWH6RBDk8SRdj2NkBzL8+/
+fhO+P19urUAHmG9CLTpqb2JqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2LjAAAAAAoAAAAL8ZNfFojUKvg9dA/YDM
+Qq+D2UD9gMRA7OuvWbUdCjIwMjEtMDEtMTUgMTE6MzA6NDYuMTM0QJ+UKJ9cU+hA
+7OuuUmLpBTIwMjEtMDEtMTUgMTA6NDQ6MjguOTE5QJ+UKIhGZGRA7OuwYQd4/TIw
+MjEtMDEtMTUgMTI6MTc6MDMuMzU1QJ+UKLZyRuwABgAFAAbGWlQARX/HeT3J4jcA
+AEKXObxCgW1BQnuocEJDjl5CrbDmQP/xHUIkQ3s/qcWCwSPNAWdmM185NDY2XzM4
+MTk3MjE4MDhfMTIwMTQwMF8xMF8xNDAwXzE0MDBfcDAuc2RzAGdhbGFoZmNvXzMu
+dHh0Ozk0NjY7O29tdmVyc2lvbj0xLjAuMDszODE5NzIxODA4OzEwOyAxNC4wZ2Fp
+YWRyMl8zMzM1MDYxODY2NDkxMDQ3MDQwAAAAAAAAAAAAAAAAAAAAAAAAAAAATm9u
+ZQAAAAAAAAAAAAAAADA1NTEwMTgxKzA3NTUxOTMzMzM1MDYxODY2NDkxMDQ3MDQw
+AEGDaYJB7YusQh1hJUIwnJFCmUENQv3wJUMcjSVDIsZgPywQLj821uw/L69FP0Ob
+jz/DeJM/od6EP83+JT/xUn1/wAAAPfjtS3/AAAA95F0cPlifvz6LFDI+nf/kPr1i
+cEAwAABABZFoQAwIMUACTdPBVY4PRajAAEFWPXE/RT99PFATqTyGWUs8ojOcPOy/
+sTYyLzY3ICA0OC81MiAgMzkvNDIgIDI5LzMxAAAAA8CLhM7AgrdkwJ6ujMCYPDA+
+iQ+2PoIHoj6Zxmo+0kb0wJGwMD57hptFufiiQIOkqb2gQpU9g71SP5zAB0EIzZxv
+YmoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAADYuMAAAAAAAAAAAvxk2EXSXAAAAAAAAAAAAAAAAAAAAAEDs67XjKCEb
+MjAyMS0wMS0xNSAxNjoyNDo1NS43OTRAn5QpMhLyxEDs67UWfJIlMjAyMS0wMS0x
+NSAxNTo0ODo1Ny4xNjNAn5QpICFddkDs67bJgvLTMjAyMS0wMS0xNSAxNzowNToy
+NS4zMTdAn5QpRkT+JgDkAO8A6EFAAADBYAAAQG9TZQABRRXfdUUVZk5FFV2JRRVe
+b0MuvoFBJdbzQj+P/T++43vBws3wZ2YzXzkwOTFfMzgxOTcyNjY4OV8xMjAxNDAw
+XzEwXzE0MDBfMTQwMF9wMS5zZHMAZ2FsYWhmY29fMy50eHQ7OTA5MTs7b212ZXJz
+aW9uPTEuMC4wOzM4MTk3MjY2ODk7MTA7IDE0LjBWZXN0YS9TdW4AAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABOb25lAAAAAAAAAAAAAAAATm9u
+ZQAAAAAAAAAAAAAAAE5vbmUAAAAAAAAAAAAAAAAAAAAARD2uLEQzwBBEFsiqQ3n5
+tkVdGHRFQBOIRRX6HERmUcI/UC5wP02LJT9PZCM/SLQyPwG/Gj6o1Kg/GUouPyAu
+TX/AAAA9/r2tf8AAAD3/cfM+UDNYPoIxvj6RlTc+p3CUQDhR7EAhR65AF753QCMS
+b3/AAABFc8AAAAAAAD0aAnU8Jx3nPGcDsDyYXwc8yLQ5NjIvNjMgIDU0LzU1ICA0
+My80NSAgMzAvMzAAAAAHwasygMGoFKDBq+xswarrST4R+hg+CBGYPicEqj5W1zzB
+qwn6Pf0JgUWwuGpAidLMPLI0sLu5Y4A/jgnPQKObTm9ic2VydmluZyB2ZXN0YSAo
+cGl2b3QgMjkzKSB0byBzZWUgc29sYXIgc3BlY3RyYSBhcyBzZWVpNi4wAAAACAAA
+
+</STREAM>
+</BINARY>
+</DATA>
+</TABLE>
+</RESOURCE>
+</VOTABLE>
