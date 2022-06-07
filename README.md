@@ -25,4 +25,10 @@ Tables are best explored in TOPCAT.
 
 ## Opening a spectrum
 
+Combined spectra are found in the folder ``210115/spectra/com``. There are four .fits files for each observed object, their names ending in numbers 1, 2, 3, and 4 for spectra made with the blue, green, red, and IR arms. 
+
+For a quick overview of a .fits file I like to use fitsview. TOPCAT or ds9 will fail to display these files correctly. From hereon we will use python to open the .fits files, extract spectra and some header information.
+
+### Extensions
+
 
